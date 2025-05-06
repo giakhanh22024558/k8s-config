@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: docker.io/khanhdev13/vue-app:6c681605806248326bba589df92bfb35e072ddc1
+          image: docker.io/khanhdev13/vue-app:6efe8efc4f1b4310c263a7bec412d173fe0d4ab7
           ports:
             - containerPort: 80
 ---
