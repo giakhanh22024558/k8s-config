@@ -4,6 +4,7 @@ metadata:
   name: allow-all
 spec:
   podSelector: {}
-  policyTypes:
-    - Ingress
-    - Egress
+  ingress:
+  - {}
+  egress:
+  - {}
